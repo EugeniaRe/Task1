@@ -1,4 +1,4 @@
-export const debounce = (func, ms) => {
+export function debounce(func, ms) {
   let timeout;
   return function () {
     const fnCall = () => {
@@ -7,4 +7,4 @@ export const debounce = (func, ms) => {
     clearTimeout(timeout);
     timeout = setTimeout(fnCall, ms);
   };
-};
+}
