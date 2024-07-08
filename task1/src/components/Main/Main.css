@@ -1,0 +1,10 @@
+ul {
+  height: 300px;
+}
+
+.filter-input {
+  width: 200px;
+  height: 30px;
+  font-size: 1.2em;
+  border-radius: 5px;
+}

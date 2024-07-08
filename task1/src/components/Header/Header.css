@@ -1,0 +1,12 @@
+header::after {
+  content: "";
+  width: 90%;
+  height: 2px;
+  margin: 2rem auto;
+  background-color: #808080;
+  display: block;
+}
+
+header {
+  width: 100%;
+}

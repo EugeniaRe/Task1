@@ -1,0 +1,13 @@
+footer::before {
+  content: "";
+  width: 90%;
+  height: 2px;
+  margin: 15px auto;
+  background-color: #808080;
+  display: block;
+}
+
+footer {
+  width: 100%;
+  margin: 10px;
+}
