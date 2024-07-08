@@ -1,6 +1,6 @@
+import "./Modal.css";
 import { useRef } from "react";
 import { createPortal } from "react-dom";
-import "./Modal.css";
 import { useEffect } from "react";
 export function Modal({ children, isOpen }) {
   const dialog = useRef();
