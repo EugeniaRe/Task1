@@ -23,8 +23,8 @@ export function Main() {
       />
 
       <ul>
-        {people.map((man) => (
-          <li key={man.url}>{man.name}</li>
+        {people.map((item) => (
+          <li key={item.url}>{item.name}</li>
         ))}
       </ul>
       <Modal isOpen={isLoading}>Loading...</Modal>
