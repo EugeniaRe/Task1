@@ -1,5 +1,5 @@
 import "./Header.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Button } from "../Button/Button";
 import { Modal } from "../Modal/Modal";
 export function Header() {
